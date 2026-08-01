@@ -31,10 +31,15 @@ Não alimente pelas duas entradas ao mesmo tempo, salvo se o circuito da placa e
 2. Usar a serial para debug, comandos ou troca de dados
 3. Ligar sensores, LEDs, relés ou outros módulos nos pinos I/O
 
+## Downloads
+
+Ferramentas e aplicações relacionadas (BootProg, CCS, Java, PICkit, Proteus, Proton, etc.):
+
+[Pasta de downloads no Google Drive](https://drive.google.com/drive/folders/1_ggUjlDu9d2VRoFp1HmT3qKBibhCKUf8?usp=drive_link)
+
 ## Projeto de software
 
-Este repositório contém o firmware de exemplo em **mikroC PRO for PIC**:
+O firmware deste projeto é desenvolvido com o **CCS C Compiler** para PIC.
 
-- `Tenorino001.c` — código principal
-- `Tenorino001.mcppi` — projeto mikroC
-- `Tenorino001.cfg` — configuração do dispositivo (PIC18F4550)
+- MCU: PIC18F4550
+- Clock: 20 MHz
